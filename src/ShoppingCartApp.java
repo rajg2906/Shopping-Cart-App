@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class ShoppingCartApp {
 
     private static final String URL  = "jdbc:mysql://localhost:3306/shopping_cart_db";
-    private static final String USER = "root";
-    private static final String PASS = "sql@raj";
+    private static final String USER = "user";
+    private static final String PASS = "password";
 
     private static Connection dbConnection;
     private static final Scanner inputScanner = new Scanner(System.in);
